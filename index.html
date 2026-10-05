@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Red Bull — Beyond the Edge</title>
+
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+    crossorigin="anonymous"
+  />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top site-nav" aria-label="Main navigation">
+    <div class="container">
+      <a class="navbar-brand" href="#home">
+        <span class="brand-lockup">
+          <span class="brand-symbol" aria-hidden="true"><span>RB</span></span>
+          <span class="brand-name">
+            RED BULL
+            <small>GIVES YOU WIIINGS</small>
+          </span>
+        </span>
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#mainNavigation"
+        aria-controls="mainNavigation"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNavigation">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+          <li class="nav-item"><a class="nav-link" href="#stories">Stories</a></li>
+          <li class="nav-item"><a class="nav-link" href="#disciplines">Sports</a></li>
+          <li class="nav-item"><a class="nav-link" href="#events">Events</a></li>
+          <li class="nav-item"><a class="nav-link" href="#approach">About</a></li>
+          <li class="nav-item ms-lg-3">
+            <a class="btn btn-light nav-cta" href="#events">Find an event</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <section class="hero-section d-flex align-items-end" id="home">
+      <picture class="hero-media">
+        <source media="(max-width: 767px)" srcset="skibidi/Redbull%20fmx%20%F0%9F%A7%A8%F0%9F%A7%A8.jpg" />
+        <img src="skibidi/RB STUNT RX.jpg" alt="Freestyle bike rider" />
+      </picture>
+      <div class="hero-shade"></div>
+      <div class="container position-relative hero-content">
+        <div class="row align-items-end gy-4">
+          <div class="col-12 col-lg-8 order-1">
+            <span class="eyebrow d-none d-md-inline-flex">Red Bull Motorsports</span>
+            <span class="eyebrow d-inline-flex d-md-none">Motorsports</span>
+            <h1 class="hero-title mt-3 mb-3">THE EDGE IS<br />JUST THE START.</h1>
+            <p class="hero-copy mb-4">
+              Meet the athletes who turn the impossible into the next starting line.
+            </p>
+            <div class="d-flex flex-wrap gap-3">
+              <a class="btn btn-danger btn-lg action-button" href="#disciplines">Explore stories</a>
+              <button
+                class="btn btn-outline-light btn-lg action-button"
+                type="button"
+                data-bs-toggle="modal"
+                data-bs-target="#reelModal"
+              >
+                Watch the reel <span aria-hidden="true">↗</span>
+              </button>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 order-2 d-none d-lg-block">
+            <div class="hero-stat ms-lg-auto">
+              <span>Next live</span>
+              <strong>Red Bull Erzbergrodeo</strong>
+              <small>June 14 · Eisenerz, Austria</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="scroll-cue d-none d-md-flex" href="#stories" aria-label="Scroll to featured story">
+        <span>SCROLL</span>
+        <i aria-hidden="true"></i>
+      </a>
+    </section>
+
+    <section class="story-section py-5 py-lg-6" id="stories">
+      <div class="container py-4 py-lg-5">
+        <div class="row align-items-center g-4 g-lg-5">
+          <div class="col-12 col-lg-7 order-2 order-lg-1">
+            <div class="story-image-wrap">
+              <img src="skibidi/Beverage company Red Bull (@redbull) and fashion….jpg" alt="Freestyle bike rider" class="img-fluid story-image" />
+              <span class="story-index d-none d-md-block">01</span>
+            </div>
+          </div>
+          <div class="col-12 col-lg-5 order-1 order-lg-2">
+            <span class="section-kicker">Featured story</span>
+            <h2 class="display-title mt-3">NO ROOM<br />FOR DOUBT.</h2>
+            <p class="lead-copy mt-4">
+              At this height, confidence is everything. Red Bull athletes don’t wait for permission — they launch harder, ride cleaner, and push the edge until it bends.
+            </p>
+            <a href="#disciplines" class="text-link mt-3 d-inline-flex align-items-center gap-2">
+              Read the full story <span aria-hidden="true">→</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="disciplines-section" id="disciplines">
+      <div class="disciplines-heading">
+        <div>
+          <span class="section-kicker">Find your rush</span>
+          <h2>DISCIPLINES</h2>
+        </div>
+      </div>
+
+      <div class="disciplines-grid">
+        <article class="discipline-card">
+          <div class="discipline-image">
+            <img src="skibidi/1070590142681084908.jpg" alt="Bike" />
+            <span>02</span>
+          </div>
+          <div class="discipline-body">
+            <h3>Mountain bike</h3>
+            <p>Unforgiving lines, total commitment and the riders redefining what is possible on two wheels.</p>
+            <a href="#events">Explore <span aria-hidden="true">→</span></a>
+          </div>
+        </article>
+
+        <article class="discipline-card">
+          <div class="discipline-image">
+            <img src="skibidi/1022528290434040195.jpg" alt="Motorsport" />
+            <span>03</span>
+          </div>
+          <div class="discipline-body">
+            <h3>Motorsport</h3>
+            <p>From dirt to tarmac, follow the teams chasing fractions of a second at the absolute limit.</p>
+            <a href="#events">Explore <span aria-hidden="true">→</span></a>
+          </div>
+        </article>
+
+        <article class="discipline-card">
+          <div class="discipline-image">
+            <img src="skibidi/Redbull%20fmx%20%F0%9F%A7%A8%F0%9F%A7%A8.jpg" alt="FMX" />
+            <span>04</span>
+          </div>
+          <div class="discipline-body">
+            <h3>FMX</h3>
+            <p>Gravity gets optional when the world’s boldest freestyle riders take to the air.</p>
+            <a href="#events">Explore <span aria-hidden="true">→</span></a>
+          </div>
+        </article>
+
+        <article class="discipline-card">
+          <div class="discipline-image">
+            <img src="skibidi/Red%20Bull%20Stratos_%20Mission%20to%20the%20Edge%20of%20Space.jpg" alt="Red Bull Stratos space jump" />
+            <span>05</span>
+          </div>
+          <div class="discipline-body">
+            <h3>Stratos</h3>
+            <p>At the edge of space, courage and engineering become one unforgettable mission.</p>
+            <a href="#events">Explore <span aria-hidden="true">→</span></a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="events-section py-5 py-lg-6" id="events">
+      <div class="container py-4 py-lg-5">
+        <div class="row align-items-end mb-4 mb-lg-5 g-3">
+          <div class="col-12 col-md-8">
+            <span class="section-kicker section-kicker-light">Coming up</span>
+            <h2 class="display-title mt-3 mb-0 text-white">LIVE THE ACTION.</h2>
+          </div>
+          <div class="col-12 col-md-4 text-md-end d-none d-md-block">
+            <a class="btn btn-outline-light action-button" href="#approach">View all events</a>
+          </div>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-12 col-md-6 col-lg-4">
+            <article class="card event-card h-100 border-0">
+              <img src="skibidi/Downhill%20World%20Cup%202022%20%E2%80%93%20Fort%20William_%20Video-Highlights%20vom%20Regen-Rennen.jpg" class="card-img-top" alt="Bike World Cup" />
+              <div class="card-body p-4">
+                <div class="d-flex gap-3 align-items-start">
+                  <div class="event-date text-center">
+                    <strong>14</strong>
+                    <span>JUN</span>
+                  </div>
+                  <div>
+                    <p class="event-location mb-2">Leogang, Austria</p>
+                    <h3 class="card-title">Bike World Cup</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer border-0 bg-transparent px-4 pb-4 pt-0">
+                <a class="event-link" href="#home">Event details <span aria-hidden="true">→</span></a>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <article class="card event-card h-100 border-0">
+              <img src="skibidi/max%20verstappen,%20austrian%20gp%202026.jpg" class="card-img-top" alt="Race Weekend" />
+              <div class="card-body p-4">
+                <div class="d-flex gap-3 align-items-start">
+                  <div class="event-date text-center">
+                    <strong>28</strong>
+                    <span>JUN</span>
+                  </div>
+                  <div>
+                    <p class="event-location mb-2">Spielberg, Austria</p>
+                    <h3 class="card-title">Race Weekend</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer border-0 bg-transparent px-4 pb-4 pt-0">
+                <a class="event-link" href="#home">Event details <span aria-hidden="true">→</span></a>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <article class="card event-card h-100 border-0">
+              <img src="skibidi/Red%20Bull%20X%20Fighters%20by%20Mark%20Rigney.jpg" class="card-img-top xfighters-image" alt="X-Fighters" />
+              <div class="card-body p-4">
+                <div class="d-flex gap-3 align-items-start">
+                  <div class="event-date text-center">
+                    <strong>05</strong>
+                    <span>JUL</span>
+                  </div>
+                  <div>
+                    <p class="event-location mb-2">Madrid, Spain</p>
+                    <h3 class="card-title">X-Fighters</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer border-0 bg-transparent px-4 pb-4 pt-0">
+                <a class="event-link" href="#home">Event details <span aria-hidden="true">→</span></a>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <div class="d-grid d-md-none mt-4">
+          <a class="btn btn-outline-light action-button" href="#approach">View all events</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="approach-section py-5 py-lg-6" id="approach">
+      <div class="container py-4 py-lg-5">
+        <div class="row g-5">
+          <div class="col-12 col-lg-4">
+            <span class="section-kicker">Behind the build</span>
+            <h2 class="display-title mt-3">BUILT TO<br />ADAPT.</h2>
+            <p class="lead-copy mt-4">
+              This page uses two responsive methods. Open each note to see how the layout changes from phone to tablet to laptop.
+            </p>
+          </div>
+          <div class="col-12 col-lg-8">
+
+            <div class="accordion approach-accordion" id="responsiveAccordion">
+              <div class="accordion-item">
+                <h3 class="accordion-header">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#manualNote">
+                    <span class="accordion-number">01</span> Hand-written media queries
+                  </button>
+                </h3>
+                <div id="manualNote" class="accordion-collapse collapse show" data-bs-parent="#responsiveAccordion">
+                  <div class="accordion-body">
+                    The Disciplines section is mobile-first custom CSS: 1 card at base size, 2 from 768px, and 4 from 1200px. Its heading scale and alignment also change at wider breakpoints.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bootstrapNote">
+                    <span class="accordion-number">02</span> Bootstrap grid
+                  </button>
+                </h3>
+                <div id="bootstrapNote" class="accordion-collapse collapse" data-bs-parent="#responsiveAccordion">
+                  <div class="accordion-body">
+                    The story, events and comparison areas use containers, rows and responsive columns. Bootstrap ordering keeps important text first on mobile.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="mt-5 p-3 border bg-white rounded">
+              <h4 class="h6 text-uppercase fw-bold text-muted mb-3">Bootstrap Grid Example:</h4>
+              <div class="container text-center text-white font-monospace">
+                <div class="row mb-2 g-2">
+                  <div class="col bg-primary p-2">col</div>
+                  <div class="col bg-primary p-2">col</div>
+                  <div class="col bg-primary p-2">col</div>
+                  <div class="col bg-primary p-2">col</div>
+                </div>
+                <div class="row g-2">
+                  <div class="col-8 bg-danger p-2">col-8</div>
+                  <div class="col-4 bg-dark p-2">col-4</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="table-responsive mt-4">
+              <table class="table comparison-table align-middle mb-0">
+                <thead>
+                  <tr>
+                    <th scope="col">Measure</th>
+                    <th scope="col">Manual CSS</th>
+                    <th scope="col">Bootstrap</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">Code</th>
+                    <td>More rules, explicit control</td>
+                    <td>Less CSS, readable classes</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Speed</th>
+                    <td>Slower to tune each breakpoint</td>
+                    <td>Fast with a proven grid</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Best fit here</th>
+                    <td>Editorial discipline cards</td>
+                    <td>Page structure and utilities</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <p class="comparison-conclusion mt-4 mb-0">
+              I would choose manual CSS when a section needs a distinctive layout and precise art direction, like the editorial Discipline cards. I would choose Bootstrap when I need to build and adjust familiar page structures quickly, like the event card grid and two-column story.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer py-5">
+    <div class="container">
+      <div class="row align-items-center gy-4">
+        <div class="col-12 col-md-4">
+          <span class="brand-lockup">
+            <span class="brand-symbol" aria-hidden="true"><span>RB</span></span>
+            <span class="brand-name">
+              RED BULL
+              <small>GIVES YOU WIIINGS</small>
+            </span>
+          </span>
+        </div>
+        <div class="col-12 col-md-4 text-md-center">
+          <a href="#home">Back to the top ↑</a>
+        </div>
+        <div class="col-12 col-md-4 text-md-end">
+          <small>Student concept · 2026</small>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="modal fade" id="reelModal" tabindex="-1" aria-labelledby="reelModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content reel-modal">
+        <div class="modal-header border-0">
+          <h2 class="modal-title" id="reelModalLabel">THE WORLD IN MOTION.</h2>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body pt-0">
+          <img src="skibidi/Red%20Bull%20District%20Ride.jpg" class="img-fluid mb-4" alt="Motocross athlete" />
+          <p>From first drop to final flag, this is what it looks like to live at full speed.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"
+  ></script>
+</body>
+</html>
